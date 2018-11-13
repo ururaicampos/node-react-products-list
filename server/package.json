@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server side of a simple product list",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Ururai Campos",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4",
+    "pg": "^7.6.1"
+  }
+}

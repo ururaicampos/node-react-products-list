@@ -1,0 +1,54 @@
+.logo{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 140px;
+    height: 100%;
+    color: rgb(128, 108, 92);
+    flex: 0 0 auto;
+
+}
+
+#top-nav{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+    z-index: 80;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 62px;
+    background-color: white;
+    padding: 0px 1.6rem;
+}
+
+#title-nav{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+    z-index: 80;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    background-color: #edecf0;
+
+}
+
+#title-h1{
+    padding-left: 20px;
+    font-size: 38px;
+    font-weight: 200;
+    align-self: center;
+    color: #433e66;
+}
+
+
+.search-field{
+    position: relative;
+}
